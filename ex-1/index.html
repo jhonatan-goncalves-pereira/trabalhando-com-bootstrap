@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Meus certificados</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap-5.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <meta name="theme-color" content="#7952b3">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    
+  }
+  @media (max-width:696px){
+    .carousel{
+        margin-bottom: 0px;
+    }
+    .carousel .container,.carousel rect{
+        height: 350px;
+        margin-top: 10px;
+        }
+    .carousel div .ci-2,.carousel div .ci-1{
+        background-size: 100% auto;
+    }
+    .carousel div.ci-2{
+        background-position: top;
+    }.carousel div.ci-2 h1 ,.carousel div.ci-2 h2p{
+        background-color: #fff;
+        font-size: .7em;
+    }
+    .carousel h1, .carousel p{
+        text-shadow: 1px 1px 10px #fff;
+    }
+    .dio img {
+        width: 80%;
+        height: auto;
+    }
+    #Parceiros img{
+        margin:10px auto
+    }
+  }
+    </style>
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          Meus Certificados na 
+          <img src="img/logo-dio.png" width="100px" alt="">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#BootcampDio">Bootcamp na DIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Parceiros">Parceiros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#QuemSouEu">Quem sou eu?</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquise aqui..." aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">&#128269;</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+    <!-- CARROSEL DE IMAGENS COM LINKS-->
+    <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+      </button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+      </button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+      </button>
+    </div>
+    <div class="carousel-inner">
+      <div class="ci-1 carousel-item active">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Bootcamp na DIO</h1>
+            <p class="backCarousel">
+                Acesse e confira!
+            </p>
+            <p>
+                <a class="btn btn-lg btn-primary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">
+                Ver
+                </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ci-2">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Exemplo de certificado</h1>
+            <p>Grande reconhecimento e aceitação!</p>
+            <p>
+                <a class="btn btn-lg btn-primary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">
+                Fazer meu curso na DIO
+                </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ci-3">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Escolha a sua área</h1>
+            <p>Um universo de oportunidades</p>
+            <p><a class="btn btn-lg btn-primary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">
+                Escolher área</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev btn-prev-next " type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true">
+      </span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next btn-prev-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true">
+      </span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  
+  <div class="container marketing" id='BootcampDio'>
+
+    <!-- Como funcionam os Bootcamp na DIO? -->
+    <div class="row dio" >
+    <h1>Como funcionam os Bootcamp na DIO?</h1>
+        <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/ddn-bootcamp.png" height="140px" alt="">
+        <h2>O que é um Bootcamp?</h2>
+        <p>
+            Um bootcamp é um tipo de treinamento imersivo feito para o desenvolvimento de habilidades importantes em diversas áreas. Na programação, essa modalidade está ganhando cada vez mais força no mercado.
+             Aprenda sobre o que é um bootcamp e com ele funciona seguindo a leitura deste artigo!     
+        </p>
+        <p>
+            <a class="btn btn-secondary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">Iniciar &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/logo-dio.png" alt="logo DIO"  width="90%">
+        <h2>Quem é a DIO?</h2>
+        <p>
+            A Digital Innovation One é uma comunidade com +450 mil desenvolvedores de software que acelera gratuitamente a sua carreira através de cursos, bootcamps, projetos práticos e desafios para você conquistar as melhores oportunidades profissionais nas 
+            empresas mais inovadoras do mercado de trabalho.
+        </p>
+        <p>
+            <a class="btn btn-secondary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">Ver detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="img/fundo.webp" height="140px"  alt="" >
+        <h2>Por onde começo?</h2>
+        <p>Crie sua conta grátis e se divirta com as diversas aulas disponíveis!
+        </p>
+        <p><a class="btn btn-secondary" href="https://dio.me/sign-up?ref=YDW2CKH82I" target="_blank">Começar Bootcamp na DIO &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    
+    <hr class="featurette-divider">
+
+    <!-- Parceiros-->
+    <div class="container text-center" id="Parceiros">
+        <h2>Parceiros</h2>
+        <br>
+        <div class="row ">
+            <div class="col-md-3">
+                <img src="img/inter.svg" alt="Logo inter">
+            </div>
+            <div class="col-md-3">
+                <img src="img/localiza.svg" alt="Logo Localiza">
+            </div>
+            <div class="col-md-3">
+                <img src="img/orbi.svg" alt="Logo Órbi">
+            </div>
+            <div class="col-md-3">
+                <img src="img/santander.svg" alt="Logo Santander">
+            </div>
+        </div>
+        <br><br>
+        <div class="row ">
+            <div class="col-md-3">
+                <img src="img/avanade.svg" alt="Logo Avanade">
+            </div>
+            <div class="col-md-3">
+                <img src="img/carrefour.svg" alt="Logo Carrefour">
+            </div>
+            <div class="col-md-3">
+                <img src="img/porto-digital.svg" alt="Logo Porto Digital">
+            </div>
+            <div class="col-md-3">
+                <img src="img/cognizant.svg" alt="Logo Cognizant">
+            </div>
+        </div>
+        <br><br>
+
+    </div>
+
+    
+    <hr class="featurette-divider " >
+
+    <!-- QUEM SOU EU? -->
+    <div class="row  quesoueu">
+        <div class="col-md-6 class quemSouImg">
+            <img src="img/eu.jpg" alt="Jhonatan Gonçalves Pereira" height="250px">
+        </div>
+        <div class="col-md-6" id="QuemSouEu">
+        <h2 class="featurette-heading">Jhonatan Gonçalves Pereira <br>
+             <span class="text-muted">Dev. Ful-Stack</span></h2>
+        <pre class="lead text-left">
+💻| 𝙱. 𝚎𝚖 𝚂.𝙸. - @ifcecrato
+💼| 𝙸. 𝙲. - 𝙿𝙸𝙱𝙸𝙲 - @cnpq_oficial
+👨‍💻| 𝙳𝚎𝚟. 𝚏𝚞𝚕𝚕 𝚜𝚝𝚊𝚌𝚔
+👨‍🎓| 𝚃𝚎𝚌. 𝙸𝚗𝚏𝚘𝚛𝚖.
+🏙| 𝙲𝚛𝚊𝚝𝚘-𝙲𝙴            
+        </pre>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+  </div><!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="container rodape">
+    <p class="float-end">
+        <a href="#">
+            <img src="img/prev.png" class="voltarAoTop" width="50px" alt="Voltar ao topo." title="Voltar ao Topo">
+        </a>
+    </p>
+    <p>
+        &copy; 2021 Jhonatan Gonçalves Pereira &middot; 
+        <a href="https://www.linkedin.com/in/jhonatan-goncalves-pereira/">Linkedin</a> 
+        &middot; 
+        <a href="https://github.com/jhonatangoncalvespereira">Github</a></p>
+  </footer>
+</main>
+
+
+    <script src="../bootstrap-5.1.3/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
+  </body>
+</html>

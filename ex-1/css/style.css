@@ -1,0 +1,83 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+.carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 1px 0px 1px darkblue;
+}
+
+.carousel .container,.carousel rect{
+height: 500px;
+}
+.carousel h1, .carousel p{
+    color: orange;
+}
+.carousel div .ci-1,.carousel div .ci-2, .carousel div .ci-3{
+    background-repeat: no-repeat;
+}
+.carousel div .ci-1{
+    background-image: url('../img/colourful-illustration-programmer-working/2842680.jpg');
+    background-size:  60% auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}.carousel div .ci-2{
+    background-image: url('../img/certificado1.jpg');
+    background-size: auto 100%;
+    background-position: center;
+}.carousel div .ci-3{
+    background-image: url('../img/software-developers-working-script-coding-engineer-character-programming-php-python-javascript-other-languages/People_in_programming_01ung_03.jpg');
+    background-size: auto 100%;
+    background-position: left;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-image: url('../img/prev.png');
+}
+.carousel-control-next-icon{
+    transform: scale(-1);
+    
+}
+#BootcampDio{
+    padding-top: 50px;
+}
+.marketing{
+    text-align: justify;
+}
+.dio {
+    position: relative;
+    border-left: 1px solid #888;
+    padding: 40px 20px;
+    text-align: center;
+    align-items: center;
+}
+.dio p{
+    text-align: justify;
+    text-indent: 20px;
+    position: relative;
+    height: auto;
+}
+#Parceiros{
+    padding-top: 100px;
+}
+.quemSouImg{
+    text-align: right;   
+    
+}
+.rodape .voltarAoTop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border:1px solid orange;
+    border-radius: 50%;
+    padding: 10px;
+    transform: rotate(90deg);
+    opacity: .4;
+}
+.rodape .voltarAoTop:hover{
+    opacity: .8;
+}
