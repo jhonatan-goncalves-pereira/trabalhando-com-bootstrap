@@ -1,12 +1,27 @@
 # trabalhando-com-bootstrap
 ## Estrutura do repositório
-~~~repositório
-* bootstrap > css | js
-* ex-1 > index.html | css > style.css | js > script.js
-* ...
-* ex-x > index.html | css > style.css | js > script.js
-* README.md
+
+~~~bootstrap
+* css 
+* js
 ~~~
+
+~~~ex-1
+* index.html 
+* css > style.css 
+* js > script.js
+* img
+~~~
+
+~~~ ...
+ ...
+~~~
+
+~~~ ex-x
+ ex-x > index.html | css > style.css | js > script.js
+~~~
+
+~~~ README.md
 
 
 ## consulte e faça o donwload ou cole o link do css ou js no seu HTML e use remotamente
