@@ -10,5 +10,5 @@
 
 
 ## consulte e faça o donwload
-* [Consulte aqui] (https://getbootstrap.com/docs/5.1/getting-started/contents/)
+* [Consulte aqui](https://getbootstrap.com/docs/5.1/getting-started/contents/)
 * [Baixe aqui](https://getbootstrap.com/docs/5.1/getting-started/download/)
